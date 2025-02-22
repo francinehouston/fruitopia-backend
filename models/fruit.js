@@ -16,24 +16,24 @@ const fruitSchema = mongoose.Schema({
     nutritions: {
         calories:{
         type: Number,
-        required: true
+       
     }
     },
         fat:{ 
             type: Number,
-            required: true
+           
         },
         sugar: {
             type: Number,
-            required: true
+           
         },
         carbohydrates: {
             type: Number,
-            required: true
+           
         },
         protein: {
            type: Number,
-           required: true
+          
            
     }
 
